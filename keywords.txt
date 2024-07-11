@@ -1,19 +1,22 @@
-#######################################
-# Syntax Coloring Map for exp:HCSR04  #
-#######################################
+###########################################
+# Syntax Coloring Map For MKL_DHT-sensor-library
+###########################################
 
-#######################################
-#       Datatypes (KEYWORD1)          # 
-#######################################
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
 
-HCSR04	KEYWORD1
+MKL_DHT	KEYWORD1
 
-#######################################
-#  Methods and Functions (KEYWORD2)   #
-#######################################
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
 
-dist	KEYWORD2
+begin	KEYWORD2
+readTemperature	KEYWORD2
+convertCtoF	KEYWORD2
+convertFtoC	KEYWORD2
+computeHeatIndex	KEYWORD2
+readHumidity	KEYWORD2
+read	KEYWORD2
 
-#######################################
-#         Constants (LITERAL1)        #
-#######################################
